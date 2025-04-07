@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     color: rgb(148, 0, 99);
-    background-color: rgb(255, 197, 252);
+    background-color: rgba(255, 197, 252, 0.8);
     padding: 30px;
     border-radius: 20px;
     font-size: 40px;
@@ -12,6 +12,7 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: rgb(88, 0, 69);
+    background-color: aliceblue;
 }
 
 
@@ -23,10 +24,11 @@ h2{
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 80%;
     max-width: 1200px;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .card {
@@ -39,5 +41,32 @@ h2{
     transition: transform 0.3s ease;
 }
 
+img{
+    width: 15vw;
+}
 
+body{
+    background-image: url(https://plus.unsplash.com/premium_photo-1663839412179-981cd05ba70b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
 
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-button {
+    background-color: rgb(148, 0, 99);
+    color: white;
+    padding: 5px 30px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: rgb(255, 246, 121);
+    color: black;
+}
